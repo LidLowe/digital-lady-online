@@ -1,0 +1,15 @@
+<div class="news">
+
+    <span class="title" style="font-size: 30px; font-weight: 900; margin-bottom: 30px">
+        События и Новости
+    </span>
+
+    <div class="news-list" #newsList>
+        @for (item of items; track item.id) {
+            <app-news-card
+                [item]="item">
+            </app-news-card>
+        }
+    </div>
+
+</div>

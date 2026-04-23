@@ -1,0 +1,13 @@
+<div class="team">
+    <span style="font-size: 30px; font-weight: 900;">
+        Наша Команда
+    </span>
+
+    <div class="team-list">
+        @for (item of items; track item.id) {
+            <app-team-card
+                [item]="item">
+            </app-team-card>
+        }
+    </div>
+</div>

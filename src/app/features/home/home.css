@@ -1,0 +1,48 @@
+.homepage {
+    display: flex;
+    flex-direction: column;
+}
+
+.help {
+    display: flex;
+
+    align-content: center;
+    justify-content: center;
+
+    background: linear-gradient(135deg, #6366f1 0%, #a855f7 100%);
+}
+
+.help-item{
+    width: 400px;
+    height: 100px;
+
+    margin: 200px 0;
+
+    align-content: center;
+    text-align: center;
+
+    border-radius: 30px;
+
+    background: #ffffff;
+
+    transition: 0.1s ease-in;
+}
+
+.help-item:hover {
+    transition: 0.2s;
+
+    color: white;
+    background: black;
+
+    cursor: pointer;
+}
+
+.help-link {
+    text-decoration: none;
+    color: white;
+    transition: opacity 0.2s;
+}
+
+.help-link:hover {
+    opacity: 0.7;
+}

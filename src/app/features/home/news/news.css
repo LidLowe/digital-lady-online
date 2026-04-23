@@ -1,0 +1,37 @@
+.news {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-content: center;
+
+    padding: 100px 200px;
+
+
+    background-color: #111827;
+    color: white;
+}
+
+.news-title {
+    margin-bottom: 30px;
+}
+
+.news-list {
+    display: flex;
+    overflow-x: auto;
+
+    gap: 5px;
+
+    scrollbar-width: none;
+}
+
+
+.news-list {
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch; /* плавность на мобиле */
+}
+
+.news-list::-webkit-scrollbar {
+    display: none;
+}

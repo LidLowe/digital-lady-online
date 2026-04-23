@@ -1,0 +1,15 @@
+<div class="labs">
+
+    <span style="font-size: 30px; font-weight: 900; margin-bottom: 30px;">
+        Наши Лаборатории
+    </span>
+
+    <div class="labs-list">
+        @for (item of items; track item.id) {
+            <app-labs-card
+                [item]="item">
+            </app-labs-card>
+        }
+    </div>
+
+</div>
