@@ -26,7 +26,7 @@ export class LabsIcons {
         ["cube", ["#dbeafe", "#2563eb"]],
     ]);
 
-    size: number = 60;
+    size: number = 30;
 
     get iconConfig(): [string, string] {
         if (this.hovered && this.icons.has(this.icon)) {
