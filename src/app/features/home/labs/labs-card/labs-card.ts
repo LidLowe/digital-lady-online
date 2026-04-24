@@ -18,5 +18,5 @@ export class LabsCard {
         icon: string;
     };
 
-    hovered: boolean = false;
+    protected hovered: boolean = false;
 }

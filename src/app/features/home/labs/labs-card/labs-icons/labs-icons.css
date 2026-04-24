@@ -1,15 +1,18 @@
 .icon {
     display: flex;
+
     justify-content: center;
     align-items: center;
+    justify-items: center;
+    align-content: center;
 
     width: 60px;
     height: 60px;
-}
 
-svg {
     border: solid transparent 1px;
     border-radius: 15px;
+
+    padding: 5px;
 
     transition: 0.3s;
 }

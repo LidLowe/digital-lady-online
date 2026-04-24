@@ -4,13 +4,10 @@ import {Component, Input} from '@angular/core';
     selector: 'app-labs-icons',
     imports: [],
     template: `
-        <div class="icon">
-            <svg
-                [style.background]="iconConfig[0]"
-                [style.fill]="iconConfig[1]"
-                [style.height]="size + 'px'"
-                [style.width]="size + 'px'"
-            >
+        <div class="icon" [style.background]="iconConfig[0]">
+            <svg [style.fill]="iconConfig[1]"
+                 [style.height]="size + 'px'"
+                 [style.width]="size + 'px'" >
                 <use [attr.href]="'#icon-' + icon"/>
             </svg>
         </div>
