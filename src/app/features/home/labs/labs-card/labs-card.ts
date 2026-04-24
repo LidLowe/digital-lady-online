@@ -17,4 +17,6 @@ export class LabsCard {
         description: string;
         icon: string;
     };
+
+    hovered: boolean = false;
 }

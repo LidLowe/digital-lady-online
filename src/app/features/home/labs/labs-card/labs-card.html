@@ -1,6 +1,6 @@
-<div class="labs-card">
+<div class="labs-card" (mouseenter)="hovered=true" (mouseleave)="hovered=false">
 
-    <app-labs-icons [icon]="item.icon" />
+    <app-labs-icons [icon]="item.icon" [hovered]="hovered" />
 
     <div class="textbox">
 
