@@ -12,8 +12,9 @@ import {LabsCard} from './labs-card/labs-card';
 
 export class Labs {
     items = [
-        { id: 1, title: 'Карточка 1', description: 'Текст 1' },
-        { id: 2, title: 'Карточка 2', description: 'Текст 2' },
-        { id: 3, title: 'Карточка 3', description: 'Текст 3' },
+        { id: 1, title: 'Samsung Lab', description: 'Текст 1', icon: "android"},
+        { id: 2, title: 'Apple Lab', description: 'Текст 2', icon: "apple"},
+        { id: 3, title: '3D Lab', description: 'Текст 3', icon: "cube"},
+        { id: 4, title: 'Cisco Lab', description: 'Cisco', icon: "network"}
     ];
 }

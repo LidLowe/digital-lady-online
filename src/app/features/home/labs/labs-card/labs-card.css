@@ -1,61 +1,38 @@
 .labs-card {
-  flex: 0 0 auto;
-  box-sizing: border-box;
+    flex: 0 0 auto;
+    box-sizing: border-box;
 
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 
-  width: 400px;
-  height: 300px;
+    width: 400px;
+    height: 300px;
 
-  margin: 10px;
-  padding: 40px;
+    margin: 10px;
+    padding: 40px;
 
-  justify-content: space-between;
-  text-align: left;
+    justify-content: space-between;
+    text-align: left;
 
-  border: solid lightgray 2px;
-  border-radius: 30px;
+    border: solid lightgray 2px;
+    border-radius: 30px;
 
-  transition: 0.1s ease-in;
+    transition: 0.1s ease-in;
 }
 
 .labs-card:hover {
-  transition: 0.3s;
-  border: solid #6366f1 2px;
-  cursor: pointer;
-  box-shadow: 10px 10px 6px gray;
+    transition: 0.3s;
+    border: solid #6366f1 2px;
+    cursor: pointer;
+    box-shadow: 10px 10px 6px gray;
+
+    --icon-color: #ffffff;
+    --icon-bg: --icon-hovered;
 }
 
 .textbox {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 
-  gap: 10px;
-}
-
-.icon {
-  width: 40px;
-  height: 40px;
-
-  padding: 5px;
-  margin-bottom: 10px;
-
-  text-align: center;
-  align-content: center;
-
-  border: solid transparent 1px;
-  border-radius: 15px;
-
-  background: greenyellow;
-}
-
-.icon svg{
-  width: 30px;
-  fill: green;
-}
-
-svg {
-    fill: currentColor;
-    display: block;
+    gap: 10px;
 }

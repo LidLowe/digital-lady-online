@@ -1,9 +1,11 @@
 import {Component, Input} from '@angular/core';
-import {DomSanitizer, SafeHtml} from '@angular/platform-browser';
+import {LabsIcons} from './labs-icons/labs-icons';
 
 @Component({
   selector: 'app-labs-card',
-  imports: [],
+    imports: [
+        LabsIcons
+    ],
   templateUrl: './labs-card.html',
   styleUrl: './labs-card.css',
 })
