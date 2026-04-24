@@ -1,14 +1,14 @@
 <div class="team-card">
 
     <div class="image">
-        <img src="{{ item.url }}" alt="{{ item.name }}"/>
+        <img [src]="'assets/team-portraits/' + item.url" alt="{{ item.name }}" />
     </div>
 
-    <span style="font-size: 20px; font-weight: 600;" >
+    <span style="font-size: 20px; font-weight: 900;" >
         {{ item.name }}
     </span>
 
-    <span style="font-size: 20px; font-weight: 400;" >
+    <span style="font-size: 15px; font-weight: 400; color: gray" >
         {{ item.role }}
     </span>
 

@@ -21,25 +21,22 @@ export class LabsIcons {
 
     icons = new Map<string, [string, string]>([
         ["android", ["#dcfce7", "#16a34a"]],
-        ["apple", ["#dbeafe", "#2563eb"]],
-        ["network", ["#dbeafe", "#2563eb"]],
-        ["cube", ["#dbeafe", "#2563eb"]],
+        ["apple", ["#f3f4f6", "#111827"]],
+        ["network", ["#D0F6FF", "#02c8ff"]],
+        ["cube", ["#e0e7ff", "#4f46e5"]],
     ]);
 
     size: number = 30;
 
     get iconConfig(): [string, string] {
-        if (this.hovered && this.icons.has(this.icon)) {
+        if (!this.hovered) {
+            return this.icons.get(this.icon)!;
+        }
+        else {
             let bg: string = this.icons.get(this.icon)![1];
             let fill: string = "white";
 
             return [bg, fill];
-        }
-        else if (this.icons.has(this.icon)) {
-            return this.icons.get(this.icon)!;
-        }
-        else {
-            return ['transparent', 'black']
         }
     }
 

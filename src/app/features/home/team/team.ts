@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
-import {TeamCard} from './team-card/team-card';
+import { TeamCard } from './team-card/team-card';
 
 @Component({
     selector: 'app-team',
+    standalone: true,
     imports: [
         TeamCard
     ],
@@ -11,11 +12,11 @@ import {TeamCard} from './team-card/team-card';
 })
 
 export class Team {
-    items!: [
-        { id: 1, name: "", role: "", url: "" },
-        { id: 2, name: "", role: "", url: "" },
-        { id: 3, name: "", role: "", url: "" },
-        { id: 4, name: "", role: "", url: "" },
-        { id: 5, name: "", role: "", url: "" },
+    items = [
+        { id: 1, name: "Template", role: "Template", url: "1.jpg" },
+        { id: 2, name: "Template", role: "Template", url: "2.jpg" },
+        { id: 3, name: "Template", role: "Template", url: "3.jpg" },
+        { id: 4, name: "Template", role: "Template", url: "4.jpg" },
+        { id: 5, name: "Template", role: "Template", url: "5.jpg" },
     ]
 }

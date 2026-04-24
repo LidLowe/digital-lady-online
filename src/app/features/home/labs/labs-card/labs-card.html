@@ -1,14 +1,14 @@
-<div class="labs-card" (mouseenter)="hovered=true" (mouseleave)="hovered=false">
+<div class="labs-card" (mouseenter)="hovered=true" (mouseleave)="hovered=false" (click)="openDialog()">
 
     <app-labs-icons [icon]="item.icon" [hovered]="hovered" />
 
     <div class="textbox">
 
-        <span style="font-weight: 900; font-size: 25px;">
+        <span style="font-weight: 900; font-size: 25px;" >
             {{ item.title }}
         </span>
 
-        <span style="color: gray; font-weight: 400; font-size: 15px; line-height: 1.625">
+        <span style="color: gray; font-weight: 400; font-size: 15px; line-height: 1.625; ">
             {{ item.description }}
         </span>
 

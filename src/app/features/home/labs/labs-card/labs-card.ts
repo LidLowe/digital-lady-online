@@ -1,5 +1,7 @@
 import {Component, Input} from '@angular/core';
 import {LabsIcons} from './labs-icons/labs-icons';
+import {MatDialog} from '@angular/material/dialog';
+import {LabsDetails} from '../labs-details/labs-details';
 
 @Component({
   selector: 'app-labs-card',
@@ -17,6 +19,15 @@ export class LabsCard {
         description: string;
         icon: string;
     };
+
+    constructor(private dialog: MatDialog) {}
+
+    openDialog() {
+        this.dialog.open(LabsDetails, {
+            width: '500px',
+            data: this.item,
+        });
+    }
 
     protected hovered: boolean = false;
 }

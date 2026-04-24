@@ -21,11 +21,11 @@ export class News {
 
     items = [
         { id: 1, title: 'Карточка 1', description: 'Текст 1', url: 'https://png.pngtree.com/thumb_back/fh260/background/20230610/pngtree-picture-of-a-blue-bird-on-a-black-background-image_2937385.jpg' },
-        { id: 1, title: 'Карточка 1', description: 'Текст 1', url: 'https://png.pngtree.com/thumb_back/fh260/background/20230610/pngtree-picture-of-a-blue-bird-on-a-black-background-image_2937385.jpg' },
-        { id: 1, title: 'Карточка 1', description: 'Текст 1', url: 'https://png.pngtree.com/thumb_back/fh260/background/20230610/pngtree-picture-of-a-blue-bird-on-a-black-background-image_2937385.jpg' },
-        { id: 1, title: 'Карточка 1', description: 'Текст 1', url: 'https://png.pngtree.com/thumb_back/fh260/background/20230610/pngtree-picture-of-a-blue-bird-on-a-black-background-image_2937385.jpg' },
-        { id: 1, title: 'Карточка 1', description: 'Текст 1', url: 'https://png.pngtree.com/thumb_back/fh260/background/20230610/pngtree-picture-of-a-blue-bird-on-a-black-background-image_2937385.jpg' },
-        { id: 1, title: 'Карточка 1', description: 'Текст 1', url: 'https://png.pngtree.com/thumb_back/fh260/background/20230610/pngtree-picture-of-a-blue-bird-on-a-black-background-image_2937385.jpg' },
-        { id: 1, title: 'Карточка 1', description: 'Текст 1', url: 'https://png.pngtree.com/thumb_back/fh260/background/20230610/pngtree-picture-of-a-blue-bird-on-a-black-background-image_2937385.jpg' },
+        { id: 2, title: 'Карточка 1', description: 'Текст 1', url: 'https://png.pngtree.com/thumb_back/fh260/background/20230610/pngtree-picture-of-a-blue-bird-on-a-black-background-image_2937385.jpg' },
+        { id: 3, title: 'Карточка 1', description: 'Текст 1', url: 'https://png.pngtree.com/thumb_back/fh260/background/20230610/pngtree-picture-of-a-blue-bird-on-a-black-background-image_2937385.jpg' },
+        { id: 4, title: 'Карточка 1', description: 'Текст 1', url: 'https://png.pngtree.com/thumb_back/fh260/background/20230610/pngtree-picture-of-a-blue-bird-on-a-black-background-image_2937385.jpg' },
+        { id: 5, title: 'Карточка 1', description: 'Текст 1', url: 'https://png.pngtree.com/thumb_back/fh260/background/20230610/pngtree-picture-of-a-blue-bird-on-a-black-background-image_2937385.jpg' },
+        { id: 6, title: 'Карточка 1', description: 'Текст 1', url: 'https://png.pngtree.com/thumb_back/fh260/background/20230610/pngtree-picture-of-a-blue-bird-on-a-black-background-image_2937385.jpg' },
+        { id: 7, title: 'Карточка 1', description: 'Текст 1', url: 'https://png.pngtree.com/thumb_back/fh260/background/20230610/pngtree-picture-of-a-blue-bird-on-a-black-background-image_2937385.jpg' },
     ];
 }
