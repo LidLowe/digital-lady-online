@@ -1,35 +1,51 @@
 <div class="labs-detail">
 
-    <div class="" (click)="close()">
-        <svg>
-
-        </svg>
-
-        <span style="">
-            Назад
+    <div class="return" (click)="close()">
+        <span style="font-size: 20px; font-weight: 700;">
+            🠘 Назад
         </span>
     </div>
 
-    <div class>
-        <app-labs-icons [icon]="item.icon" />
+    <div class="body">
 
-        <span style="">
-            {{ item.title }}
+        <div class="title">
+            <app-labs-icons [icon]="item.icon" />
+
+            <span style="font-size: 45px; font-weight: 800; margin-left: 20px;">
+                {{ detail?.title }}
+            </span>
+        </div>
+
+        <span style="font-size: 25px; font-weight: 550; line-height: 1.5; color: dimgray; margin-bottom: 7vh; ">
+            {{ detail?.description }}
         </span>
-    </div>
 
-    <span style="">
-        {{ item.description }}
-    </span>
+        <div class="tables">
+            <div class="table-1">
+                <span style="font-size: 25px; font-weight: 800;" >
+                    Направления обучения:
+                </span>
 
-    <div class="">
-        <div class="">
+                <ul>
+                    @for (item of detail?.major; track item.id) {
+                        <span style="font-size: 20px; font-weight: 350; margin: 3px;">
+                            <li>{{ item }}</li>
+                        </span>
+                    }
+                </ul>
+            </div>
 
+            <div class="table-2">
+                <span style="font-size: 25px; font-weight: 800; margin-bottom: 30px;" >
+                    Техническая база:
+                </span>
+
+                <span style="font-size: 20px; font-weight: 350;">
+                    {{ detail?.techBase }}
+                </span>
+            </div>
         </div>
 
-        <div class="">
-
-        </div>
     </div>
 
 </div>

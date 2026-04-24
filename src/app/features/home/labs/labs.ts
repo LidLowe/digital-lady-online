@@ -13,6 +13,6 @@ export class Labs {
         { id: 1, title: 'Samsung Lab', description: 'Разработка решений для мобильных платформ.', icon: "android"},
         { id: 2, title: 'Apple Lab', description: 'Создание приложений для iOS, macOS и iPadOS.', icon: "apple"},
         { id: 3, title: '3D Lab', description: 'От идеи до физического объекта.', icon: "cube"},
-        { id: 4, title: 'Cisco Lab', description: 'Cisco', icon: "network"}
+        { id: 4, title: 'Cisco Lab', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec orci.', icon: "network"}
     ];
 }

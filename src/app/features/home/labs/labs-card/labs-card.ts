@@ -24,7 +24,9 @@ export class LabsCard {
 
     openDialog() {
         this.dialog.open(LabsDetails, {
-            width: '500px',
+            minWidth: '80vw',
+            minHeight: '80vh',
+
             data: this.item,
         });
     }
