@@ -17,6 +17,6 @@ import {Team} from './team/team';
 })
 export class Home {
     openLink() {
-        window.open('https://forms.gle/nXp3GsTqKLWKBsJR7', '_blank');
+        window.open('https://form.jotform.com/260971299889077', '_blank');
     }
 }

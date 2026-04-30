@@ -19,13 +19,30 @@ export class News {
         }, { passive: false });
     }
 
-    items = [
-        { id: 1, title: 'Карточка 1', description: 'Текст 1', url: 'https://png.pngtree.com/thumb_back/fh260/background/20230610/pngtree-picture-of-a-blue-bird-on-a-black-background-image_2937385.jpg' },
-        { id: 2, title: 'Карточка 1', description: 'Текст 1', url: 'https://png.pngtree.com/thumb_back/fh260/background/20230610/pngtree-picture-of-a-blue-bird-on-a-black-background-image_2937385.jpg' },
-        { id: 3, title: 'Карточка 1', description: 'Текст 1', url: 'https://png.pngtree.com/thumb_back/fh260/background/20230610/pngtree-picture-of-a-blue-bird-on-a-black-background-image_2937385.jpg' },
-        { id: 4, title: 'Карточка 1', description: 'Текст 1', url: 'https://png.pngtree.com/thumb_back/fh260/background/20230610/pngtree-picture-of-a-blue-bird-on-a-black-background-image_2937385.jpg' },
-        { id: 5, title: 'Карточка 1', description: 'Текст 1', url: 'https://png.pngtree.com/thumb_back/fh260/background/20230610/pngtree-picture-of-a-blue-bird-on-a-black-background-image_2937385.jpg' },
-        { id: 6, title: 'Карточка 1', description: 'Текст 1', url: 'https://png.pngtree.com/thumb_back/fh260/background/20230610/pngtree-picture-of-a-blue-bird-on-a-black-background-image_2937385.jpg' },
-        { id: 7, title: 'Карточка 1', description: 'Текст 1', url: 'https://png.pngtree.com/thumb_back/fh260/background/20230610/pngtree-picture-of-a-blue-bird-on-a-black-background-image_2937385.jpg' },
+    cards = [
+        {
+            id: 1,
+            title: 'Объявление',
+            description: 'Сайт запущен',
+            url: 'https://png.pngtree.com/thumb_back/fh260/background/20230610/pngtree-picture-of-a-blue-bird-on-a-black-background-image_2937385.jpg'
+        },
+        {
+            id: 2,
+            title: 'События',
+            description: 'AI материал для конференции',
+            url: 'https://static.tildacdn.ink/tild6136-6561-4464-b064-663238636334/WhatsApp_Image_2026-.jpeg'
+        },
+        {
+            id: 3,
+            title: 'Робототехника',
+            description: 'Освоение станков в Fablab',
+            url: 'https://static.tildacdn.ink/tild6136-6561-4464-b064-663238636334/WhatsApp_Image_2026-.jpeg'
+        },
+        {
+            id: 4,
+            title: 'События',
+            description: 'Выставка Nauryz 2026',
+            url: 'https://static.tildacdn.ink/tild6166-6634-4263-b032-363463346134/WhatsApp_Image_2026-.jpeg',
+        }
     ];
 }

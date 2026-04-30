@@ -5,7 +5,7 @@
     </span>
 
     <div class="news-list" #newsList>
-        @for (item of items; track item.id) {
+        @for (item of cards; track item.id) {
             <app-news-card
                 [item]="item">
             </app-news-card>

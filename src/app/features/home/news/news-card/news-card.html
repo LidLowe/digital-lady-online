@@ -1,15 +1,15 @@
-<div class="news-card">
+<div class="news-card" (click)="openDialog()">
 
     <div class="image">
         <img src="{{item.url}}">
     </div>
 
     <div class="textbox">
-        <span style="font-size: 15px; font-weight: 500; color: gray;">
+        <span style="font-size: 15px; font-weight: 500; color: gray; margin-bottom: 5px;">
             {{ item.title }}
         </span>
 
-        <span style="font-size: 25px; font-weight: 900;">
+        <span style="font-size: 22px; font-weight: 850;">
             {{ item.description }}
         </span>
   </div>

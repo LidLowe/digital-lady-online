@@ -1,6 +1,6 @@
 import {Component, Input} from '@angular/core';
-import {it} from 'vitest';
-import {NgOptimizedImage} from '@angular/common';
+import {MatDialog} from '@angular/material/dialog';
+import {NewsDetail} from '../news-detail/news-detail';
 
 @Component({
   selector: 'app-news-card',
@@ -15,5 +15,16 @@ export class NewsCard {
         title: string;
         description: string;
         url: string;
+    }
+
+    constructor(private dialog: MatDialog) {}
+
+    openDialog(): void {
+        this.dialog.open(NewsDetail, {
+            minWidth: '95vw',
+            minHeight: '95vh',
+
+            data: this.item,
+        });
     }
 }
