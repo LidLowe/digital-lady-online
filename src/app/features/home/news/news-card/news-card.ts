@@ -3,10 +3,11 @@ import {MatDialog} from '@angular/material/dialog';
 import {NewsDetail} from '../news-detail/news-detail';
 
 @Component({
-  selector: 'app-news-card',
+    selector: 'app-news-card',
     imports: [],
-  templateUrl: './news-card.html',
-  styleUrl: './news-card.css',
+    templateUrl: './news-card.html',
+    styleUrl: './news-card.css',
+    standalone: true
 })
 
 export class NewsCard {

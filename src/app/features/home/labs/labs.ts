@@ -6,6 +6,7 @@ import { LabsCard } from './labs-card/labs-card';
     imports: [LabsCard],
     templateUrl: './labs.html',
     styleUrl: './labs.css',
+    standalone: true
 })
 
 export class Labs {

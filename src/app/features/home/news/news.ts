@@ -8,6 +8,7 @@ import {NewsCard} from './news-card/news-card';
     ],
     templateUrl: './news.html',
     styleUrl: './news.css',
+    standalone: true
 })
 export class News {
     @ViewChild('newsList') newsList!: ElementRef;
