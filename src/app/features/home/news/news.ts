@@ -31,7 +31,7 @@ export class News {
             id: 2,
             title: 'События',
             description: 'AI материал для конференции',
-            url: 'https://static.tildacdn.ink/tild6136-6561-4464-b064-663238636334/WhatsApp_Image_2026-.jpeg'
+            url: 'https://static.tildacdn.ink/tild3331-3737-4565-b964-656361663034/WhatsApp_Image_2026-.jpeg'
         },
         {
             id: 3,
