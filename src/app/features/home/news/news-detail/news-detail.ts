@@ -7,6 +7,7 @@ import {MAT_DIALOG_DATA, MatDialogModule, MatDialogRef} from '@angular/material/
     ],
     templateUrl: './news-detail.html',
     styleUrl: './news-detail.css',
+    standalone: true
 })
 
 export class NewsDetail {
