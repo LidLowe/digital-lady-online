@@ -25,7 +25,7 @@ export class News {
             id: 1,
             title: 'Объявление',
             description: 'Сайт запущен',
-            url: 'https://png.pngtree.com/thumb_back/fh260/background/20230610/pngtree-picture-of-a-blue-bird-on-a-black-background-image_2937385.jpg'
+            url: 'assets/NewLogo.jpg'
         },
         {
             id: 2,
