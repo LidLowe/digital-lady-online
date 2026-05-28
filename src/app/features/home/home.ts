@@ -3,6 +3,7 @@ import { Hero } from './hero/hero';
 import { Labs } from './labs/labs';
 import { News } from './news/news';
 import { Team } from './team/team';
+import { Help } from './help/help';
 
 @Component({
     selector: 'app-home',
@@ -10,14 +11,12 @@ import { Team } from './team/team';
         Hero,
         Labs,
         News,
-        Team
+        Team,
+        Help
     ],
     templateUrl: './home.html',
     styleUrl: './home.css',
     standalone: true
 })
-export class Home {
-    openLink() {
-        window.open('https://form.jotform.com/260971299889077', '_blank');
-    }
-}
+
+export class Home {}

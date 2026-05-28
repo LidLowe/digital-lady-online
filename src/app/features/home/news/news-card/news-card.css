@@ -17,6 +17,10 @@
 }
 
 .news-card:hover {
+    cursor: pointer;
+}
+
+.news-card:hover {
     transition: 0.2s;
     scale: 1.03;
 }

@@ -1,6 +1,8 @@
 <div class="labs-card" (mouseenter)="hovered=true" (mouseleave)="hovered=false" (click)="openDialog()">
 
-    <app-labs-icons [icon]="item.icon" [hovered]="hovered" />
+    <div class="icon">
+        <app-labs-icons [icon]="item.icon" [hovered]="hovered" />
+    </div>
 
     <div class="textbox">
 
